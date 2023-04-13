@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    height: 45vh;
+    background-color: #24242c;
+    padding: 4% 10%;
+    border-top-right-radius: 150px;
+  }
+  .footer-body{
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-lists{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+  }
+  
+  .footer-lists ul li{
+    list-style: none;
+    padding: 10px;
+  }
+  .footer-lists ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: 300;
+  }
+  .footer-lists ul .list-heading a{
+  font-weight: 600;
+  }
+  li:hover{
+    text-decoration: underline;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  .button-sign-up:hover, .start-for-free:hover {
+    background-color:hsl(355, 100%, 74%) ;
+    color: white;
+    border-color: hsl(355, 100%, 74%);
+  }
+  

@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background:   linear-gradient(90deg, hsl(13, 100%, 72%) 10%, hsl(353, 100%, 62%) 60%);
+  padding: 0 5%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.navbar-left img {
+  scale: 120%;
+}
+.navbar-left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.navbar-left ul {
+  display: flex;
+  list-style: none;
+  margin-left: 80px;
+}
+
+.navbar-left a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+  font-size: 20px;
+}
+.navbar-buttons {
+  display: flex;
+}
+.navbar-buttons button {
+  width: 160px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+}
+li:hover{
+  text-decoration: underline;
+}
+button:hover{
+  cursor: pointer;
+}
+.button-sign-up:hover, .start-for-free:hover {
+  background-color:hsl(355, 100%, 74%) ;
+  color: white;
+  border-color: hsl(355, 100%, 74%);
+}
