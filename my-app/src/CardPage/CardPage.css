@@ -1,0 +1,8 @@
+.CardPage{
+    width: 80%;
+    min-height: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: lightcoral;
+    
+}

@@ -1,0 +1,10 @@
+.Card{
+    text-align: center;
+    background-color: azure;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}

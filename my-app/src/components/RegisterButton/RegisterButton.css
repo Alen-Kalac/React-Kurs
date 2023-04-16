@@ -1,0 +1,12 @@
+.registerButton{
+    width: 250px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.registerButton:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
