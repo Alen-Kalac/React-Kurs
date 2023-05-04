@@ -2,9 +2,9 @@ import React from "react"
 import './RegisterButton.css';
 
 
-const RegisterButton= ({text,color,hover}) => {
+const RegisterButton= ({klasa,text,color}) => {
   return (
-   <button className="registerButton" style={{backgroundColor: color}}>{text}</button>
+   <button className={klasa} style={{backgroundColor: color}}>{text}</button>
   );
 }
 

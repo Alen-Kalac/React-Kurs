@@ -19,7 +19,7 @@ const InputCpt = () => {
        <Input type="password" placeholder="Unesite sifru"/>
        <Tekst tekst="Ponovite sifru" />
        <Input type="password" placeholder="Ponovite sifru"/>
-      <RegisterButton text="Registruj se!" color="lightsalmon"/>
+      <RegisterButton klasa="registerButton" text="Registruj se!" color="lightsalmon"/>
       </div>   
     </div>
   );
