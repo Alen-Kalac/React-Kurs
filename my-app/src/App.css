@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: flex-start;
     background-color: lightgreen;
+    text-align: center;
 }
 .top{
     position: sticky;
