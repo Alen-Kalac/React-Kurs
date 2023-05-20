@@ -1,35 +1,50 @@
-.App{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: lightgreen;
-    text-align: center;
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ececec;
+  opacity: 0.8;
+  background-image: radial-gradient(#ff6666 0.5px, transparent 0.5px),
+    radial-gradient(#ff6666 0.5px, #ececec 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  text-align: center;
 }
-.top{
-    position: sticky;
-    background-color: aquamarine;
-    top: 0;
-    width: 100%;
-    height:80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.picker {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 40%;
+  background-color: lightblue;
 }
-input{
-    width: 300px;
-    height: 40px;
-    font-size: 24px;
+.picker label {
+  font-size: 2rem;
 }
-input:focus {
-    outline: none;
+.picker select {
+  font-size: 1.5rem;
 }
-input:focus::placeholder{
-    color: transparent;
-
+.answer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.answer-container .selected-color-text,
+.correct-answer {
+  font-size: 2rem;
+}
+.colored {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  color: white;
+  transition: 1000ms ease;
 }
