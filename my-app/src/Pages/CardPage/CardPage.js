@@ -1,6 +1,6 @@
 import React from "react"
 import './CardPage.css';
-import Card from "../components/Card/Card";
+import Card from "../../components/Card/Card";
 
 const userData = [{
   id:1,
