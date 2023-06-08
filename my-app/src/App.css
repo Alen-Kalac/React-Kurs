@@ -1,50 +1,56 @@
-.App {
+* {
   margin: 0;
   padding: 0;
-  height: 100vh;
   box-sizing: border-box;
+}
+.slider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.item-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: #ececec;
-  opacity: 0.8;
-  background-image: radial-gradient(#ff6666 0.5px, transparent 0.5px),
-    radial-gradient(#ff6666 0.5px, #ececec 0.5px);
-  background-size: 20px 20px;
-  background-position: 0 0, 10px 10px;
-  text-align: center;
+  width: 300px;
+  aspect-ratio: 1/2;
+  border: 1px solid coral;
+  object-fit: cover;
 }
-.picker {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-  height: 40%;
-  background-color: lightblue;
+.item-container img {
+  margin-bottom: 0.5rem;
+  border: 3px solid red;
+  aspect-ratio: 3/4;
+  object-fit: contain;
 }
-.picker label {
-  font-size: 2rem;
+.item-container .desciption {
+  padding: 24px;
+  flex: 1;
+  overflow-x: hidden;
 }
-.picker select {
-  font-size: 1.5rem;
+.item-container .price {
+  padding: 0.5rem;
+  font-size: 24px;
 }
-.answer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.item-container .desciption::-webkit-scrollbar {
+  display: none;
 }
-.answer-container .selected-color-text,
-.correct-answer {
-  font-size: 2rem;
+@media only screen and (max-width: 600px) {
+  .slider{
+    flex-direction: column;
+    gap:  0px;
+  }
+  .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+.item-container{
+  margin-top: 5%;
+  width: 90%;
+  padding: 0px;
 }
-.colored {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 150px;
-  color: white;
-  transition: 1000ms ease;
 }

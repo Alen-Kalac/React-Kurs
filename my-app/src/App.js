@@ -1,21 +1,15 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./Home/Home";
+// import axios from "axios";
 import React from "react";
-import About from "./About/About";
-import Header from "./Header/Header";
+import Parent from "./Parent/Parent";
 
 
 
 function App() {
+
   return (
     <>
-<Header />
-<Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/about" element={<About />} />
-  <Route path="/contact" element={<About />} />
-</Routes>
+<Parent/>
     </>
   );
 }
